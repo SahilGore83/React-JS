@@ -6,8 +6,8 @@ function Todos() {
   const todos = useSelector((state) => state.todos);
   const dispatch = useDispatch();
 
-  const [editId, setEditId] = useState(null);   // which todo is being edited
-  const [newText, setNewText] = useState("");   // edited text
+  const [editId, setEditId] = useState(null);  
+  const [newText, setNewText] = useState("");  
 
   return (
     <>
